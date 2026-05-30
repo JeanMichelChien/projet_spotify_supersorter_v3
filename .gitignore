@@ -3,3 +3,26 @@
 cache/
 __pycache__/
 .pytest_cache/
+
+# Local secrets and environment
+.env.*
+!.env.example
+
+# OS, editor, and IDE metadata
+.DS_Store
+.vscode/
+.idea/
+
+# Python/runtime artifacts
+*.py[cod]
+.venv/
+.venv*/
+venv/
+.deps/
+
+# Logs, local outputs, and notebooks
+*.log
+.ipynb_checkpoints/
+artifacts/
+playwright-report/
+test-results/
